@@ -19,7 +19,7 @@ local mouse = player:GetMouse()
 local camera = game.Workspace.CurrentCamera
 
 library.theme = {
-    fontsize = 5,
+    fontsize = 15,
     titlesize = 18,
     font = Enum.Font.Code,
     background = "rbxassetid://5553946656",
@@ -35,7 +35,7 @@ library.theme = {
     outlinecolor2 = Color3.fromRGB(0, 0, 0),
     sectorcolor = Color3.fromRGB(30, 30, 30),
     toptextcolor = Color3.fromRGB(255, 255, 255),
-    topheight = 20,
+    topheight = 45,
     topcolor = Color3.fromRGB(30, 30, 30),
     topcolor2 = Color3.fromRGB(30, 30, 30),
     buttoncolor = Color3.fromRGB(49, 49, 49),
@@ -230,7 +230,8 @@ function library:CreateWindow(name, size, hidebutton)
 
     window.Main = Instance.new("ScreenGui", coregui)
     window.Main.Name = name
-    window.Main.DisplayOrder = 15
+    window.Main.DisplayOrder = 6
+
     if syn then
         syn.protect_gui(window.Main)
     end

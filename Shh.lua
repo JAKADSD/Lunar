@@ -512,7 +512,7 @@ RunService.RenderStepped:Connect(function()
 	end
 end)
 
-NotifyLib.prompt('Loading', 'Loaded aura X', 5)
+NotifyLib.prompt('Loading', 'Loaded LunaWare', 5)
 
 -- DO NOT DELETE THIS:
 --[[

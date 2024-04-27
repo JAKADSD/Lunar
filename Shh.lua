@@ -14,7 +14,7 @@ making my own aimlock after i make tpwalk v4 & camlock
 
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro2/main/ui2"))()
 local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
-NotifyLib.prompt('Loaded!', 'Modified & Created By: Aura.cc', 5)
+NotifyLib.prompt('Loaded!', 'Modified & Created By: naham', 5)
 
 -- Service
 local UserInputService = game:GetService("UserInputService")
